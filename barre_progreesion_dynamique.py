@@ -7,4 +7,4 @@ for donnes_telechargees in range(donnes_totales+1): # on imagine qu'on telecharg
     
     print("{: <20} {}%".format("*"*int(pct_telecharge//5), pct_telecharge), end='\r', flush=True) # voir https://kapeli.com/cheat_sheets/Python_Format_Strings.docset/Contents/Resources/Documents/index pour le 
 #formatage  ^^^^^
-    time.sleep(0.001) # on est obligé de mettre un délai sinon l'éxécution est trop rapide
+    time.sleep(0.001) # on met un délai sinon l'éxécution est trop rapide
